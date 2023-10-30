@@ -5,7 +5,7 @@ const ProgressBar = ({ logo, name, value, duration = 3 }) => {
   return (
     <div className="flex flex-col gap-2 sm:gap-1 text-xl font-semibold ">
       <div className="flex items-start">
-        <img src={logo} alt="" className="h-[30px] w-[30px] flex" />
+        <img src={logo} alt="" className="h-[25px] w-[25px] flex" />
         <p className="text-[1.15rem] flex items-center gap-1 sm:text-[1rem] exsm:text-sm exsm:gap-3 ml-2">
            {name}
         </p>{" "}
